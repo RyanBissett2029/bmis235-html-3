@@ -12,14 +12,14 @@
 body {
     font-family: Georgia, "Arial", serif;
     background-color: #06402B;
-    color: #2b2b2b;
+    color: #FFFFFF;
     margin: 0;
     padding: 0 20px 40px 20px;
 }
 
 /* the menu at the top of every page */
 nav {
-    background-color: #009DC4;
+    background-color: #FFFFFF;
     padding: 14px;
     text-align: center;
 }
