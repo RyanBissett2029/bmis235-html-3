@@ -9,8 +9,9 @@
    so the menu and the pages look like one brand.
    ===================================================================== */
 
+
 body {
-    font-family: Georgia, "Arial", serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #06402B;
     color: #FFFFFF;
     margin: 0;
@@ -22,6 +23,7 @@ nav {
     background-color: #FFFFFF;
     padding: 14px;
     text-align: center;
+    border-bottom: 4px solid #009DC4;
 }
 
 /* every image inside the menu is forced to the same height.
@@ -38,7 +40,9 @@ nav a {
     text-decoration: none;
 }
 
+/* page titles in your main blue */
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
     color: #009DC4;
     text-align: center;
     font-size: 40px;
@@ -51,9 +55,10 @@ p {
     line-height: 1.5;
 }
 
+/* light blue footer text so it's readable on the dark green */
 footer {
     text-align: center;
     font-size: 14px;
-    color: #777777;
+    color: #B3E6F3;
     margin-top: 40px;
 }
